@@ -3,8 +3,11 @@
 }
 .top-container{
     text-align: center;
-    margin: 10px;
+    margin: 3rem;
     padding: 5px;
+}
+.top-container p{
+    font-size: 3.5rem;
 }
 .top-container h3{
     display: inline;
@@ -13,11 +16,33 @@
     display: inline;
     margin-left: 3rem;
 }
-.recipes-container{
+.add-recipes{
+    text-align: center;
+}
+.new-button{
+    width: 10rem;
+    height: 4rem;
+    background-color: #ffdab9;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+.new-button:hover{
+    cursor: pointer;
+}
+.recipes-container, .add-container{
     margin: auto;
-    padding: 20px 50px;
+    padding: 1.5rem;
+    display: inline-block;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    letter-spacing: 0.3ch;
+    background: #ffffff;
+    position: relative;
     
 }
+
 .recipe {
     width: 30rem;
     margin: auto;
@@ -36,3 +61,43 @@
     max-width: 100%;
     max-height: 100%;
 }
+
+.ingredients li {
+    font-size: 1.3rem;
+}
+.steps li {
+    font-size: 1.1rem;
+
+}
+
+/* ------Edit Page CSS------ */
+.add-container{
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+    width: 70rem;
+    display: block;
+}
+.add-container > div{
+    padding: 15px;
+}
+.add-container > h1{
+    font-size: 3rem;
+}
+.input{
+    width: 20rem;
+    height: 2rem;
+}
+.recipe-ingredients{
+    display: inline;
+    text-align: left;
+}
+
+.add-instruction{
+    margin: 1.5rem 0;
+}
+.input-label{
+    display: block;
+    font-size: 1.4rem;
+}
+

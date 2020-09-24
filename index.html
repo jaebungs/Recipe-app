@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="/styles.css">
-    <title>Your Recipe is Mine!</title>
+    <title>You sxxk at cooking?</title>
   </head>
   <body>
     <div class="top-container">
-        <h1>Welcome to Recipe Share!</h1>
+        <p>Just follow these recipes!</p>
         <h3>What do you want to cook?</h3>
         <div class='search-box'>
             <input id="search-text" type="text" placeholder="Search recipes">
@@ -17,7 +17,7 @@
     </div>
     <div class="add-recipes">
         <form id="new-recipe">
-            <button class="button" href="/edit.html">Add Recipe</button>
+            <button class="new-button" href="/edit.html">Add Recipe</button>
         </form>
     </div>
     <div class="recipes-container">
@@ -27,12 +27,14 @@
                 <img src="/alison-marras-GyV6SL_fKsI-unsplash.jpg" alt="">
             </div>
             <div class="ingredients">
+                <h3>ingredients:</h3>
                 <ul>
                     <li>potato</li>
                     <li>rice</li>
                 </ul>
             </div>
-            <div class="steps">
+            <div class="instructions">
+                <h3>How to cook:</h3>
                 <ol>
                     <li>cut</li>
                     <li>boil</li>
@@ -40,6 +42,7 @@
             </div>
         </div>
     </div>
-
+    <script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script>
+    <script src="/index.js"></script>
   </body>
 </html>
